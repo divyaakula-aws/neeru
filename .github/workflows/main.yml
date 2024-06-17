@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   depchecktest:
-    runs-on: divs
+    runs-on: self-hosted
     name: depecheck_test
     steps:
       - name: Checkout
